@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*contenedor*/
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Seccion Contactos*/
+.Contactos {
+    flex:0 0 300px;
+    background-color: #FFF;
+    overflow-y:initial;
+    overflow-x: hidden;      
+}
+
+/*Datos y Estado del Usuario*/
+.Thumbnails {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 32px;     
+    border-left: 1px solid; 
+    border-color: #e8ebe4;
+}
+
+.Thumbnails-tiny {
+    width: 40px;      
+    border-radius: 50%;     
+    border: 1px solid;
+    border-color: #bec1bb;  
+}
+
+.datos-usuario {       
+    flex-direction: column;
+    font-family: "roboto", Arial, Helvetica, sans-serif;;         
+}
+
+.datos-usuario h4{
+    padding-top: 5px;        
+    font-weight: 400; 
+    color:#1B1F21
+}
+
+.datos-usuario p{
+    font-size: 10px;
+    color: #828485;
+}
+
+.icons {
+    padding: 10px 50px;
+}
+
+.icons i{
+    padding-right: 10px;
+    color: #828485;
+    font-size: 22px;      
+    }
+
+ /*Seccion Nuevo Chat */    
+ .button {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid; 
+    border-bottom: 1px solid; ;
+    border-left: 1px solid; 
+    border-color: #e8ebe4;   
+ }
+
+.NuevoChat {        
+    background-color: #A491D2;
+    color: #fff;
+    border: 0px;      
+    margin: 35px 0;
+    padding: 12px 45px;
+    font-size: 16px;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+.NuevoChat:hover {
+    background-color: #CDC3E6;
+}
+    
+.NuevoChat:active {
+    background-color:#D4DCFF;
+}
+
+/*Seccion Datos de los Contactos*/    
+.Thumbnails-contacto{
+    display: flex;
+    padding-top: 10px;
+    border-bottom: 1px solid; 
+    border-left: 1px solid; 
+    border-color: #e8ebe4;   
+    }   
+
+.Thumbnails-normal{
+    width: 58px;
+    margin-left: 30px;
+    border-radius: 50%; 
+    border: 1px solid;
+    border-color: #bec1bb;  
+    margin-bottom: 10px;   
+}
+
+.datos-contactos {
+    flex-direction: column; 
+    padding-left: 15px; 
+    color: #1B1F21;          
+}
+
+.datos-contactos h4{
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    padding-top: 8px;        
+    font-weight: 400;  
+}
+
+.datos-contactos p{
+    font-family: "open sans", Arial, Helvetica, sans-serif;        
+    font-size: 14px;
+}
+
+/*Seccion Principal*/    
+    .principal {
+        background-color: #E8ebe4;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;        
+        align-items: center; 
+        flex: 100%;
+    }   
+
+    .imagen img{
+        width: 17rem;
+        margin-top: 40px;
+        border-radius: 5%;    
+    }
+
+    .texto {
+        padding-bottom: 5%;
+        text-align: center;
+        color: #1B1F21;
+    }
+
+    .texto h1{
+        font-family: "roboto", Arial, Helvetica, sans-serif;
+        margin-top: 15px;
+        font-size: 45px;
+        font-weight: 400;     
+    }
+
+    .texto p{
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        font-weight: 400;  
+        font-size: 14px;
+    }
